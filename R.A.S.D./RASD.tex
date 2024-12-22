@@ -1,0 +1,45 @@
+\documentclass[a4paper, 11pt, oneside, openright, english]{memoir}
+\usepackage{booktabs}
+\usepackage[table, xcdraw, dvipsnames]{xcolor}
+\usepackage{xcolor}
+\definecolor{poliblu}{RGB}{184, 200, 213}
+\usepackage{multirow}
+\usepackage{Style/style}
+\usepackage[super]{nth}
+\usepackage{longtable}
+\usepackage{graphicx,subfigure}
+\usepackage{listings}
+
+
+\RequirePackage{minted}
+\RequirePackage{xcolor}
+\definecolor{PaleBlue}{rgb}{0.93, 0.95, 1}
+\definecolor{LineNumberColor}{rgb}{0.86,0.08,0.24} 
+\RequirePackage{listings}
+\renewcommand{\theFancyVerbLine}{\textcolor{LineNumberColor}{\footnotesize\arabic{FancyVerbLine}}}
+
+
+\begin{document}
+
+	\include{1 - Frontmatter/titlePage}
+	\pagenumbering{Roman}
+
+	\tableofcontents
+
+    \cleardoublepage
+    \listoftables
+
+    \cleardoublepage
+    \listoffigures
+
+    \cleardoublepage
+    \pagenumbering{arabic}
+	
+    \pagenumbering{arabic}
+	\include{2 - Chapters/1 - Introduction}
+	\include{2 - Chapters/2 - Overall Description}
+	\include{2 - Chapters/3 - Specific Requirements}
+	\include{2 - Chapters/4 - Alloy}
+	\include{2 - Chapters/5 - References}
+	
+\end{document}
