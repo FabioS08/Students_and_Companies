@@ -11,11 +11,11 @@ This repository follows the structure below:
 
 * 📂 **[PDF Files](PDF%20Files/)**: **Start here.** Contains the compiled documentation and the presentation slide
 
-    * 📄 [Presentation.pdf](PDF%20Files/Presentation.pdf): A brief visual overview of the system design and UI mock-ups *(Read the other files for a comprehensive explanation of each architectural choice)*
+    * 📄 [Presentation](PDF%20Files/Presentation.pdf): A brief visual overview of the system design and UI mock-ups *(Read the other files for a comprehensive explanation of each architectural choice)*
 
-    * 📄 [RASDv1.pdf](PDF%20Files/RASDv1.pdf): The complete Requirements Analysis and Specification Document (R.A.S.D.)
+    * 📄 [R.A.S.D. v. 1.1](PDF%20Files/RASD_v.1.1.pdf): The complete Requirements Analysis and Specification Document (R.A.S.D.)
 
-    * 📄 [DDv1.pdf](PDF%20Files/DDv1.pdf): The complete Design Document (D.D.)
+    * 📄 [D.D. v. 1](PDF%20Files/DD_v.1.pdf): The complete Design Document (D.D.)
 
 * 📂 **[LaTeX Files](LaTeX%20Files/)**: The source code used for producing the related documentation *(Open the subfolders on your favourite LaTeX Editor to work on the code)*
 
